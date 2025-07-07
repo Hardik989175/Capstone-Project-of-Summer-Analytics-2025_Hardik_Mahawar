@@ -17,7 +17,7 @@ This project addresses the real-world problem of optimizing parking lot pricing 
 This model sets a constant base price for all lots, irrespective of occupancy, traffic, or competition. It acts as a control for comparing performance of dynamic models.
 - Base price: ₹10/hour
 - No adjustment for demand or surroundings
-- 
+
 ### Model 2: Demand-Based Pricing
 This model calculates price based on:
 - Current occupancy vs. capacity
@@ -30,6 +30,10 @@ This model calculates price based on:
 Builds on Model 2 and adjusts price based on nearby competitors’ prices within a geolocation radius.
 
 ##  Demand Function
+
+![image](https://github.com/user-attachments/assets/3bb6fd88-b633-4608-bb75-34c28e3870c9)
+
+
 ![image](https://github.com/user-attachments/assets/c4b4467b-e416-4c26-8ad2-192ae7f61f60)
 
 ### Parameter Values
